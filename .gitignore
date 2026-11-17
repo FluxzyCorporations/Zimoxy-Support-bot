@@ -1,0 +1,8 @@
+﻿node_modules/
+dist/
+.env
+.env.*
+!*.example
+VARIABLES_RENDER.txt
+Discord/VARIABLES_RENDER.txt
+*.log

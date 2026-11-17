@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: zimoxy-discord-bot
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_VERSION
+        value: 20
